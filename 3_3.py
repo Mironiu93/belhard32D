@@ -3,4 +3,4 @@ age = input('Enter your age: ')
 city = input('What is your location? ')
 print('Hello', age, 'years old', name.capitalize(), 'from', city.capitalize())
 print(f'Hello {age} years old {name.capitalize()} from {city.capitalize()}')
-print
+print('Hello {age} years old {name} from {city}'.format(age = age, name = name.capitalize(), city = city.capitalize()))
