@@ -1,0 +1,5 @@
+first_digit = float(input('Введите любое число:'))
+second_digit = float(input('Введите любое число:'))
+third_digit = float(input('Введите любое число:'))
+average_digit = ((first_digit + second_digit + third_digit) / 3)
+print(round(average_digit, 3))
