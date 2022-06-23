@@ -1,3 +1,3 @@
 n = int(input('Введите число: '))
-lst = [2 ** n for n in range(1,n+1)]
+lst = [2 ** n for n in range(n)]
 print(lst)
