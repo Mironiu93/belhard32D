@@ -20,6 +20,5 @@ elif int(math_operation) == 4:
     print(int(first_digit) / int(second_digit))
 elif int(math_operation) == 5:
     print(int(first_digit) ** int(second_digit))
-else:
-    print('Введено не корректное действие')
+
 
