@@ -15,7 +15,11 @@ elif int(math_operation) == 2:
 elif int(math_operation) == 3:
     print(int(first_digit) * int(second_digit))
 elif int(math_operation) == 4:
-    print(int(first_digit) / int(second_digit))
+    while int(second_digit) == 0:
+        second_digit = input('Введите число 2 (число должно быть целым и отличным от нуля): ')
+    while not second_digit.isdigit():
+        second_digit = input('Введите число 2 (число должно быть целым и отличным от нуля): ')
+    print(int(int(first_digit) / int(second_digit)))
 elif int(math_operation) == 5:
     print(int(first_digit) ** int(second_digit))
 
