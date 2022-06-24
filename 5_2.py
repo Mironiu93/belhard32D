@@ -7,7 +7,7 @@ while not second_digit.isdigit():
 math_operation = input('Какое действие произвести с числом (1 : сложить, 2 : отнять, 3 : умножить, 4 :разделить, 5: возвести в степень)? Введите число от 1 до 5:  ')
 while not math_operation.isdigit():
      math_operation = input('Какое действие произвести с числом (1 : сложить, 2 : отнять, 3 : умножить, 4 :разделить, 5: возвести в степень)? Введите число от 1 до 5:  ')
-while int(math_operation) < 1 or int(math_operation) > 5:
+while (int(math_operation) < 1 or int(math_operation) > 5) or not math_operation.isdigit():
     math_operation = input(
         'Какое действие произвести с числом (1 : сложить, 2 : отнять, 3 : умножить, 4 :разделить, 5: возвести в степень)? Введите число от 1 до 5:  ')
 if int(math_operation) == 1:
